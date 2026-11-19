@@ -11,6 +11,7 @@ export const setStatus = (element, text, isError = false) => {
 // TODO: renderCities(list, cities, onSelect) ska visa en knapp per ort med
 //       namn, region och land, till exempel "Lund, Skåne län, Sverige".
 //       Klick på knappen anropar onSelect(city).
+//        onSelect(city) är funktion showWeather(city)
 export const renderCities = (list, cities, onSelect) => {
   // TODO
 };
